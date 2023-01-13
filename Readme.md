@@ -2,15 +2,19 @@
 
 **需要完整代码可以加qq  931708230 或者加微信  ynwwxid**
 
-**带实验报告**
+**博客地址：[https://blog.csdn.net/2303_76227485/article/details/128651462](https://blog.csdn.net/2303_76227485/article/details/128651462)**
 
-**带实验报告**
+**视频演示：[https://space.bilibili.com/384537280](https://space.bilibili.com/384537280)**
 
-#程序员 #java #毕业设计 #教务管理系统 #学生管理系统 #课表查询系统 #springboot #课程设计 #编程 #Timetables #mybatis-plus #thymeleaf #源代码 #javaWeb
+**毕业设计所有选题地址：[https://github.com/ynwynw/allProject](https://github.com/ynwynw/allProject)**
 
-##### 基于Java的教务管理系统、学生管理系统、课表查询系统  (Spring、SpringBoot、thymeleaf)
+## 基于Springboot的教务管理系统、学生管理系统、课表查询系统 (源代码+数据库+实验报告)
 
-- 基于SpringBoot的教务管理系统、学生管理系统、课表查询系统  ，包含数据库文件
+## 一、系统介绍
+
+本项目分为学生、老师、管理员三种角色
+
+- 基于SpringBoot的教务管理系统、学生管理系统、课表查询系统 
 
 - 后端使用Maven 进行包管理，使用spring-boot框架、模板引擎使用thymeleaf、web模块使用springMVC、数据库连接池使用Druid、数据库访问使用mybatis-plus、工具包使用hutool。前端使用H-ui模板，结合Timetables展示课程表。
 
@@ -18,96 +22,82 @@
 
 - 学生、老师可以查看自己的课表，修改自己的个人信息 、密码。登录、退出。
 
-  
-
   ![1652330542964](picture/1652330542964.png)
 
-  
+## 二、所用技术
 
-  ![1652330565045](picture/1652330565045.png)![1652330581731](picture/1652330581731.png)
+后端技术栈：
 
-  ![1652330589467](picture/1652330589467.png)![1652330603075](picture/1652330603075.png)
+- springboot
+- mybatis-plus
+- mysql
 
-  ![1652330607763](picture/1652330607763.png)
+前端技术栈：
 
-  ![1652330612295](picture/1652330612295.png)
+- thymeleaf
+- H-ui
 
-  ![1652330616130](picture/1652330616130.png)
+- Timetables.js
 
-  ![1652330621640](picture/1652330621640.png)![1652330627860](picture/1652330627860.png)
 
-  ![1652330638907](picture/1652330638907.png)
+## 三、环境介绍
 
-  ![1652330643420](picture/1652330643420.png)
+基础环境 :IDEA/eclipse, JDK 1.8, Mysql5.7及以上,Maven
 
-  ![1652330647714](picture/1652330647714.png)
+所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
 
-  ![1652330651946](picture/1652330651946.png)
+## 四、页面截图
 
-  ![1652330655752](picture/1652330655752.png)
 
-  ![1652330660007](picture/1652330660007.png)
 
-  ![1652330664455](picture/1652330664455.png)
+![1652330565045](picture/1652330565045.png)![1652330581731](picture/1652330581731.png)
 
-  ![1652330669111](picture/1652330669111.png)
+![1652330589467](picture/1652330589467.png)![1652330603075](picture/1652330603075.png)
 
-  ![1652330677831](picture/1652330677831.png)
+![1652330607763](picture/1652330607763.png)
 
-  
+![1652330612295](picture/1652330612295.png)
 
-  登录地址
+![1652330616130](picture/1652330616130.png)
 
-  http://localhost:8112/
+![1652330621640](picture/1652330621640.png)![1652330627860](picture/1652330627860.png)
 
-  
+![1652330638907](picture/1652330638907.png)
 
-  管理员账号：shf   密码：shf
+![1652330643420](picture/1652330643420.png)
 
-  
+![1652330647714](picture/1652330647714.png)
 
-  老师账号：zhangsan   密码：zhangsan
+![1652330651946](picture/1652330651946.png)
 
-  
+![1652330655752](picture/1652330655752.png)
 
-  学生账号：xue1 密码：xue1
+![1652330660007](picture/1652330660007.png)
 
-#  使用的第三方库  
+![1652330664455](picture/1652330664455.png)
 
-- 1. spring-boot
+![1652330669111](picture/1652330669111.png)
 
-  2. spring-MVC
+![1652330677831](picture/1652330677831.png)
 
-  3. thymeleaf
+## 五、浏览地址
 
-  4. mybatis-plus
+http://localhost:8112/
 
-  5. druid
+管理员账号：shf   密码：shf
 
-  6. Lombok
+老师账号：zhangsan   密码：zhangsan
 
-  7. Hutool
+学生账号：xue1 密码：xue1
 
-  8. H-ui
+## 六、安装教程
 
-  9. Timetables.js
+1. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并执行sms文件下sms.sql文件；
+2. 使用IDEA/Eclipse导入项目，若为maven项目请选择maven;导入成功后请执行maven clean;maven install命令，然后运行；
+3. 修改application.yml 里面的数据库配置
+4. 启动项目后端项目 
 
-- 基础环境 :IDEA，maven3.6，JDK 1.8 ， Mysql 5.7
 
-  ### 源码+数据库脚本 
+**需要完整代码可以加qq  931708230 或者加微信 ynwwxid**
 
-  所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
-
-  
-
-  **带实验报告**
-
-  **带实验报告**
-
-  **需要完整代码可以加qq  931708230 或者加微信 ynwwxid**
-
-  **需要完整代码可以加qq  931708230 或者加微信  ynwwxid**
-
-- 
-
-  
+**需要完整代码可以加qq  931708230 或者加微信  ynwwxid**
